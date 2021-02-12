@@ -41,8 +41,8 @@ h2{
 main a div{
     color: white;
     text-decoration: none;
+    padding: 0vh 16vw;
     padding-top: 10vh;
-    padding-left: 10vw;
 }
 
 span + h2{
