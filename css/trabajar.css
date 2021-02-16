@@ -1,0 +1,96 @@
+@font-face{
+    font-family: 'Erica One';
+    src: url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+}
+
+body{
+    font-family: 'Erica One';
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: #9D4EDD;
+    padding-top: 5vh;
+    width: 60%;
+    height: 95vh;
+    margin: 0% 20%;
+}
+
+.circle{
+    margin-left: 40%;
+    height: 20%;
+    width: 20%;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle > img{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 75%;
+}
+
+.back {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    size: 5%;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+form{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+form > *{
+    height: 2.5vh;
+}
+
+input[name="FirstName"], form input[name="LastName"], input[name="pwd"]{
+    width: 48%;
+}
+
+input[name="email"], select{
+    width: 98%;
+}
+
+label[for="myfile"]{
+    padding-left: 10%;
+}
+
+input[type="file"]{
+    margin-left: 20%;
+}
+
+h3{
+    text-align: center;
+}
+
+input[type="radio"]{
+    margin-left: 35%;
+}
+
+#check{
+    margin-top: 5%;
+    margin-right: 20%;
+    width: 10%;
+    height: auto;
+    float: right;
+}
+
+#cancel{
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 10%;
+    height: auto;
+    float: left;
+}

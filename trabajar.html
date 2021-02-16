@@ -2,14 +2,46 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/trabajar.css">
         <link rel="canonical" href="https://albertojmarun.github.io">
         <title> Quiero Trabajar - UWORK </title>
     </head>
     <body>
         <main>
+            <div>
+                <a href="menu.html"> <i class="back"> </i> </a>
+                <a href="cv_pov.html"> <span class="circle"> <img src="images/graduation-hat.png" alt="Sombrero"> </span> </a>
+            </div>
+            <br> <br>
             <form>
-                <h1> Caracas </h1>
+                <input type="text" class="" name="FirstName" placeholder="Nombre">
+                <input type="text" class="" name="LastName" placeholder="Apellido">
+                <br><br>
+                <input type="email" name="email" placeholder="correoelectronico@gmail.com">
+                <br><br>
+                <input type="password" id="pwd" name="pwd" placeholder="Contraseña">
+                <input type="password" id="pwd" name="pwd" placeholder="Repetir Contraseña">
+                <br><br>
+                <select id="select_country" class="form_style form_line" name="country">
+                    <option value="default"> Selecciona una Universidad </option>
+                    <option value="UNAV">Universidad de Navarra</option>
+                    <option value="UB">Universidad de Barcelona</option>
+                    <option value="UCO">Universidad de Cordoba</option>
+                    <option value="UPC">Universidad Politecnica de Catalunya</option>
+                </select>
+                <br><br>
+                <label for="myfile">Sube tu CV:</label>
+                <input type="file" id="myfile" name="myfile">
+                <br><br>
+                <h3> SKILLS </h3>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male"> Programacion Web </label> <br>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male"> Diseñador </label> <br>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male"> Analista Financiero </label> <br>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male"> Enfermero </label> <br>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male"> Fisioterapeuta </label> <br>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male"> Matematico </label> <br>
+                <input type="image" id="cancel" src="images/cancel.svg" border="0" alt="Submit" />
+                <input type="image" id="check" src="images/check.svg" border="0" alt="Submit"/>
             </form>
         </main>
     </body>
